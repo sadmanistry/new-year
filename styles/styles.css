@@ -186,3 +186,115 @@ header{
 .footer-right button:hover {
   background-color: #ffe5d0;
 }
+ /* responsive  */
+ /* ======================= */
+/*    Responsive Styles    */
+/* ======================= */
+
+@media (max-width: 1024px) {
+  .banner-title {
+    font-size: 40px;
+  }
+
+  .failures {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .failures img {
+    width: 90%;
+    height: auto;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .call {
+    width: 90%;
+    margin: 0 auto 100px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-right input[type="email"] {
+    width: 100%;
+  }
+
+  .footer-right,
+  .footer-left {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-text {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 32px;
+  }
+
+  .call-title {
+    font-size: 24px;
+  }
+
+  .skills-item {
+    width: 100%;
+  }
+
+  button,
+  .footer-right button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .failures-title,
+  .plan-title,
+  .call-title {
+    font-size: 24px;
+  }
+
+  .common-para {
+    font-size: 13px;
+  }
+
+  .footer-left h3,
+  .footer-right h3 {
+    font-size: 18px;
+  }
+
+  .footer-left p {
+    font-size: 12px;
+  }
+
+  .footer-right input[type="email"] {
+    font-size: 14px;
+  }
+
+  .footer-right button {
+    font-size: 14px;
+  }
+}
