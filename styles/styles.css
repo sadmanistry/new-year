@@ -10,7 +10,7 @@ body{
 }
 /* common section */
 .common-para{
-    color: #444343;
+    color: #737272;
     font-family: "Work Sans";
     font-size: 15px;
     font-weight: 400;
@@ -63,3 +63,32 @@ header{
     font-weight: 700;
     margin-bottom: 25px;
 }
+
+/* plan section */
+.plan{
+    justify-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.skills{
+    display: flex;
+    gap: 150px;
+    margin-top: 80px;
+}
+.skills-item{
+    text-align: center;
+}
+.skills-title{
+    color: #151414;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 700;
+}
+.plan-title{
+    color: #151414;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* call section */
